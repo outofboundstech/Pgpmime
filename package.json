@@ -1,0 +1,31 @@
+{
+  "name": "pgpmime",
+  "version": "1.0.0",
+  "description": "Email library that aims to provide a faithful implementation of the PGP/MIME OpenPGP encrypted email standard described in RFC3156",
+  "main": "pgpmime.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^4.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outofboundstech/Pgpmime.git"
+  },
+  "keywords": [
+    "Reason",
+    "OpenPGP",
+    "email",
+    "encryption",
+    "cryptography",
+    "privacy"
+  ],
+  "author": "Marcel Oomens",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/outofboundstech/Pgpmime/issues"
+  },
+  "homepage": "https://github.com/outofboundstech/Pgpmime#readme"
+}
