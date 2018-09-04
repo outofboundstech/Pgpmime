@@ -2,12 +2,15 @@
   "name": "pgpmime",
   "version": "1.0.0",
   "description": "Email library that aims to provide a faithful implementation of the PGP/MIME OpenPGP encrypted email standard described in RFC3156",
-  "main": "pgpmime.js",
+  "main": "src/pgpmime.re.js",
   "dependencies": {},
   "devDependencies": {
     "bs-platform": "^4.0.5"
   },
   "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +19,7 @@
   },
   "keywords": [
     "Reason",
+    "BuckleScript",
     "OpenPGP",
     "email",
     "encryption",
